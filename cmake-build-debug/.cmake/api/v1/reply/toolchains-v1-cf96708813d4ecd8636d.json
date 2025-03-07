@@ -1,0 +1,134 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/include",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/mingw32/lib",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/d/kiarash/univercity/bp/MinGW/MinGW/bin/gcc.exe",
+				"version" : "5.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include/c++",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include/c++/mingw32",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include/c++/backward",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/include",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/mingw32/lib",
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"C:/d/kiarash/univercity/bp/MinGW/MinGW/lib/gcc/mingw32/5.1.0/libstdc++.a",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/d/kiarash/univercity/bp/MinGW/MinGW/bin/c++.exe",
+				"version" : "5.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/d/kiarash/univercity/bp/MinGW/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
